@@ -5,34 +5,32 @@ body {
 }
 
 nav {
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 45px;
     background-color: rgb(35, 135, 129);
-
 }
 
-nav ul {
-    justify-content: center;
-    display: flex;
-}
+    nav ul {
+        justify-content: center;
+        display: flex;
+    }
 
-nav ul li {
-    list-style: none;
-    margin: 0 23px;
-}
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+            }
 
-nav ul li a:hover {
-    color: rgb(9, 51, 49);
-    font-size: 1.03rem;
-}
+                nav ul li a:hover {
+                    color: rgb(9, 51, 49);
+                    font-size: 1.03rem;
+                }
 
 .left {
     font-size: 1.5rem;
@@ -44,98 +42,19 @@ nav ul li a:hover {
     margin: 80px 0;
     align-items: center;
     height: 60vh;
-
 }
 
-.firstSection>div {
-    width: 30%;
-}
+    .firstSection > div {
+        width: 30%;
+    }
 
 .leftSection {
     font-size: 3rem;
 }
 
-.rightSection {}
-
-.rightSection img {
-    width: 80%;
-
+.rightSection {
 }
 
-.green {
-    color: rgb(35, 135, 129);
-}
-
-.Firsthr {
-    width: 90%;
-    justify-content: center;
-}
-
-.secondSection {
-    max-width: 80vw;
-    height: 60vh;
-    margin: auto;
-}
-
-.education {
-    margin: 17px 0px 50px -15px;
-    color: #28c5ab;
-}
-
-.secondSection .gray {
-    color: gray;
-    font-size: 15px;
-    margin: -27px;
-}
-
-.secondSection .hline {
-    background: white;
-    width: 83vw;
-    height: 1px;
-    margin: 25px 0px;
-    display: flex;
-}
-
-.secondSection .vline {
-    height: 45px;
-    width: 0.5px;
-    background: white;
-    margin: 0px 170px;
-    left: -87px;
-    position: relative;
-}
-
-.edimg {
-    border-radius: 23px;
-    width: 25px;
-    top: -32px;
-    left: -12px;
-    position: relative;
-}
-
-.vertical-title {
-    position: relative;
-    top: 31px;
-    /* right: 16px; */
-    width: 125px;
-}
-
-.vertical-desc {
-    top: 40px;
-    position: relative;
-    width: 126px;
-    /* right: 47px; */
-    font-size: 15px;
-    color: gray;
-}
-
-.Secondhr {
-    width: 90%;
-    justify-content: center;
-}
-
-.Thirdsection{
-    max-width: 80vw;
-    height: 60vh;
-    margin: auto;
-}
+    .rightSection img {
+        width: 80%;
+    }

@@ -31,11 +31,6 @@ nav {
                     font-size: 1.03rem;
                 }
 
-.left {
-    font-size: 1.5rem;
-    font-color: white;
-}
-
 .firstSection {
     display: flex;
     justify-content: space-around;

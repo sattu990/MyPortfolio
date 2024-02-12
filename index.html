@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satyam - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"> My Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi my name is <span class="green">satyam</span>
+        <div>and i'm a Passionate</div>
+        <span id="element"></span>
+
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="bgimage">
+      </div>
+    </section>
+    <hr class="Firsthr">
+    <section class="secondSection">
+      <span class="gray">What Have I Done So Far</span>
+      <h1 class="education">Education </h1>
+      <div class="hline">
+        <div class="vline">
+          <img class="edimg" src="mca.png" alt="">
+          <div class="vertical-title">MCA (2021-2023)</div>
+          <div class="vertical-desc"><span id="vline1"></span></div>
+        </div>
+        <div class="vline">
+          <img class="edimg" src="mca.png" alt="">
+          <div class="vertical-title">B.Sc (2017-2020)</div>
+          <div class="vertical-desc"><span id="vline2"></span></div>
+        </div>
+        <div class="vline">
+          <img class="edimg" src="mca.png" alt="">
+          <div class="vertical-title">HSC (2016-2017)</div>
+          <div class="vertical-desc"><span id="vline3"></span></div>
+        </div>
+        <div class="vline">
+          <img class="edimg" src="mca.png" alt="">
+          <div class="vertical-title">SSC (2014-2015)</div>
+          <div class="vertical-desc"><span id="vline4"></span></div>
+        </div>
+      </div>
+
+    </section>
+    <hr class="Secondhr">
+    <section class="Thirdsection">
+      <h1 class="education">Projects </h1>
+
+    </section>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Content Creator', 'Software Developer'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#vline1', {
+      strings: ['I have done my Masters of Computer Application (MCA) from LNCT College, Bhopal (M.P.) with having 8.47 CGPA including All Semesters.'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#vline2', {
+      strings: ['I have done my Bachelors of Science (Computer Application) from Vaishnav Mata Law College, Panna (M.P.) with having 72.33% including All 3 Years.'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#vline3', {
+      strings: ['I have done Higher Secondary Certificate (12th) from Govt. R.P.H.S School Of Excellence No.01, Panna (M.P.) with having 83% as aggregate.'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#vline4', {
+      strings: ['I have done my Secondary School Certificate (10th) from Govt Model Higher Secondary School, Panna (M.P.) with having 72.33% as aggregate.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
